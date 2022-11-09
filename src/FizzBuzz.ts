@@ -7,11 +7,11 @@ function rangeFrom1To(upperLimit: number): number[] {
 }
 
 function fizzBuzzOrNumber(number: number) {
-  return number % 15 == 0
+  return number % 15 === 0
     ? "FizzBuzz"
-    : number % 3 == 0
+    : number % 3 === 0
       ? "Fizz"
-      : number % 5 == 0
+      : number % 5 === 0
         ? "Buzz"
         : `${number}`;
 }
