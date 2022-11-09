@@ -1,0 +1,25 @@
+# Logs
+logs
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# Jetbrains IDE config
+.idea
+
+# "Compiled" JS files
+*.js
